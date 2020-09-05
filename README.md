@@ -210,7 +210,7 @@ and pass it to the `titleText` or `messageText` variables.
 Flushbar(
   title: "Hey Ninja", //ignored since titleText != null
   message: "Lorem Ipsum is simply dummy text of the printing and typesetting industry", //ignored since messageText != null
-  titleText: Text("Hello Hero", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0 color: Colors.yellow[600], fontFamily:"ShadowsIntoLightTwo"),),
+  titleText: Text("Hello Hero", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0,color: Colors.yellow[600], fontFamily:"ShadowsIntoLightTwo"),),
   messageText: Text("You killed that giant monster in the city. Congratulations!", style: TextStyle(fontSize: 16.0, color: Colors.green[fontFamily: "ShadowsIntoLightTwo"),),
 )..show(context);
 ```
